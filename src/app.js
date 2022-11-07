@@ -13,7 +13,7 @@ const Hirer = require("./models/hirers");
 const { json, text } = require("express");
 const { log } = require("console");
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 const static_path = path.join(__dirname, "../public" );
 const template_path = path.join(__dirname, "../templates/views" );
