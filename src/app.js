@@ -6,6 +6,7 @@ app.use(cors());
 const hbs = require("hbs");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const chart = require("@mongodb-js/charts-embed-dom")
 
 require("./db/conn");
 const Register = require("./models/registers");
